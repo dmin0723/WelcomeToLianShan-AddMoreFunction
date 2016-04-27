@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/yao"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/yao"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:id="@+id/zhuang"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/zhuang"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:id="@+id/panwang"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/panwang"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:id="@+id/niuwang"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/niuwang"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:id="@+id/water"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/water"
+        android:textSize="40sp"
+        />
+
+    <TextView
+        android:id="@+id/lion"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/lion"
+        android:textSize="40sp"
+        />
+
+</LinearLayout>
