@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-           android:layout_width="match_parent"
-           android:layout_height="match_parent">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#e0e0e0">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -9,35 +10,33 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="match_parent"
-            android:gravity="center"
-            android:layout_height="wrap_content"
+            style="@style/MyTitleSize"
+            android:text="@string/oujiatitian"
+            />
+
+        <TextView
+            style="@style/MyTextSize"
             android:text="@string/oujiatitian_introduce"
-            android:textSize="16sp"/>
+            />
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyImageView"
             android:src="@drawable/tt1"/>
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyImageView"
             android:src="@drawable/tt2"/>
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyImageView"
             android:src="@drawable/tt3"/>
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/MyImageView"
             android:src="@drawable/tt4"/>
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/MyImageView"
             android:src="@drawable/tt5"/>
 
     </LinearLayout>

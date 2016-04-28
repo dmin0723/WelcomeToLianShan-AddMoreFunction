@@ -2,41 +2,47 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
+              android:background="#d0f8ce"
               android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/jinzishan"
+    <ImageView
+        style="@style/MyImageView"
         android:layout_width="match_parent"
-        android:gravity="center"
         android:layout_height="wrap_content"
-        android:text="@string/jinzishan"
-        android:textSize="40sp"
-        />
+        android:src="@drawable/viewer"/>
 
-    <TextView
-        android:id="@+id/daxushan"
-        android:layout_width="match_parent"
-        android:gravity="center"
-        android:layout_height="wrap_content"
-        android:text="@string/daxushan"
-        android:textSize="40sp"
-        />
+    <LinearLayout
+        style="@style/MyLinearLayout">
 
-    <TextView
-        android:id="@+id/yingyangguan"
-        android:layout_width="match_parent"
-        android:gravity="center"
-        android:layout_height="wrap_content"
-        android:text="@string/yingyangguan"
-        android:textSize="40sp"
-        />
+        <TextView
+            android:id="@+id/jinzishan"
+            style="@style/MyItemText"
+            android:text="@string/jinzishan"
+            />
 
-    <TextView
-        android:id="@+id/oujiatitian"
-        android:layout_width="match_parent"
-        android:gravity="center"
-        android:layout_height="wrap_content"
-        android:text="@string/oujiatitian"
-        android:textSize="40sp"
-        />
+        <TextView
+            android:id="@+id/daxushan"
+            style="@style/MyItemText"
+            android:text="@string/daxushan"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MyLinearLayout">
+
+        <TextView
+            android:id="@+id/yingyangguan"
+            style="@style/MyItemText"
+            android:text="@string/yingyangguan"
+            />
+
+        <TextView
+            android:id="@+id/oujiatitian"
+            style="@style/MyItemText"
+            android:text="@string/oujiatitian"
+            />
+
+    </LinearLayout>
+
+
 </LinearLayout>

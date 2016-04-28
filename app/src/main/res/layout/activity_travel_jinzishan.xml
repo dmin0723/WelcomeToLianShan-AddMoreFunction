@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="#d0f8ce">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -9,41 +10,43 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="match_parent"
-            android:gravity="center"
-            android:layout_height="wrap_content"
-            android:text="@string/jinzishan_introduce"
-            android:textSize="16sp"/>
+            style="@style/MyTitleSize"
+            android:text="@string/jinzishan"
+            />
+
+        <TextView
+            style="@style/MyTextSize"
+            android:text="@string/jinzishan_introduce_one"
+            />
+
+        <TextView
+            style="@style/MyTextSize"
+            android:text="@string/jinzishan_introduce_two"/>
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/MyImageView"
             android:src="@drawable/jzs1"/>
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/MyImageView"
             android:src="@drawable/jzs2"/>
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/MyImageView"
             android:src="@drawable/jzs3"/>
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/MyImageView"
             android:src="@drawable/jzs4"/>
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/MyImageView"
             android:src="@drawable/jzs5"/>
 
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/MyImageView"
             android:src="@drawable/jzs6"/>
 
     </LinearLayout>
+
 </ScrollView>

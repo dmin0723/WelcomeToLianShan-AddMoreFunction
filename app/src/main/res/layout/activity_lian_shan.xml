@@ -4,90 +4,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#d7ccc8"
     android:orientation="vertical"
     tools:context="dengmin.sj35.s1.studyjams.cn.welcometolianshan.LianShanActivity">
 
+    <TextView
+        style="@style/MyTitleSize"
+        android:text="@string/welcome"
+        android:textSize="45sp"/>
+
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/MyImageView"
         android:src="@drawable/lianshanxiancheng"/>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:orientation="horizontal"
-        android:padding="8dp">
+        style="@style/MyLinearLayout">
 
         <TextView
             android:id="@+id/introduce"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:layout_height="wrap_content"
+            style="@style/MyItemText"
             android:text="@string/introduce_name"
-            android:textSize="40sp"
             />
 
         <TextView
             android:id="@+id/travel"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
+            style="@style/MyItemText"
             android:text="@string/travel_name"
-            android:textSize="40sp"
-            android:gravity="center"/>
+            />
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:orientation="horizontal"
-        android:padding="8dp">
+        style="@style/MyLinearLayout">
 
         <TextView
             android:id="@+id/custom"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:layout_height="wrap_content"
-            android:text="@string/custom_name"
-            android:textSize="40sp"/>
+            style="@style/MyItemText"
+            android:text="@string/custom_name"/>
 
         <TextView
             android:id="@+id/cate"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:layout_height="wrap_content"
+            style="@style/MyItemText"
             android:text="@string/cate_name"
-            android:textSize="40sp"/>
+            />
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:orientation="horizontal"
-        android:padding="8dp">
+        style="@style/MyLinearLayout">
 
         <TextView
             android:id="@+id/traffic"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:layout_height="wrap_content"
+            style="@style/MyItemText"
             android:text="@string/traffic_name"
-            android:textSize="40sp"/>
+            />
 
         <TextView
             android:id="@+id/accommodation"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:layout_height="wrap_content"
+            style="@style/MyItemText"
             android:text="@string/accommodation_name"
-            android:textSize="40sp"/>
+            />
 
     </LinearLayout>
 
